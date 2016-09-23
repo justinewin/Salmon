@@ -1,13 +1,50 @@
-# DevTips-Starter-Kit Gulp Version
+# Salmon Boilerplate
 
-Use this as a simple structure for a simple start to a simple site.
 
-Visit [DevTipsStarterKit.com](http://devtipsstarterkit.com) for more info.
+This boilerplate is Justine Win's custom version of Devtip's Starter Kit V2.
 
-![Watch the video on youtube](https://github.com/DevTips/DevTips-Starter-Kit/blob/master/assets/img/starter-kit-cover.jpg?raw=true)
+Salmon uses Jade and Sass and includes clean flex layout classes, optional bootstrap & skeleton grid, and what-not.
 
-## Requeriments
-This project have some requeriments you need to meet in order to compile it. First of all, you need NodeJS in order to run javascript on the console, you can go to the [NodeJS](http://nodejs.rg) site and follow trough the installation process. After you get the `node` command on the console, you need to install Gulp and Bower globally with the following command.
+##Grids
+
+Choose whether you want to use bootstrap's or skeleton's grid then go to main.sass file and comment out the grid's css file you will not use
+
+##Flex layout
+
+This page is using flex classes. I have included helpful comments on the flex-layout.sass file. Go ahead, experiment!
+
+##Getting started
+
+Fork or clone, do whatever you want.
+
+### Download Zip
+
+Download the zip file then open the project on your terminal. Type in `npm install && bower install` and wait for the dependencies to install. Next, type in `gulp build` then `gulp start`. You should be able to run it on your localhost:3000 
+### Clone
+
+Open your terminal, type in the following:
+
+```
+git clone -b master --single-branch https://github.com/JustineWin/Salmon-Gulp.git project-name
+```
+Go to your project folder, type in `npm install && bower install` and wait for the dependencies to install. Next, type in `gulp build` then `gulp start`. You should be able to run it on your localhost:3000
+
+If you're not into Sass and Jade, you can use [Salmon Boilerplate](https://github.com/JustineWin/Salmon-Boilerplate) - an HTML/CSS version of this.
+
+Future Plans
+
+Will include an image minifier soon and yeoman for fast installation.
+
+## Inspired by
+
+This is inspired by [Travis Neilson's](https://github.com/travisneilson)  Devkit. Visit [DevTipsStarterKit.com](http://devtipsstarterkit.com) for more info.
+
+### Original Gulp version
+DevTipster [Maikel José Rivero Dorta](https://github.com/mriverodorta) created a [gulp version](https://github.com/mriverodorta/DevTips-Starter-Kit/tree/Gulp-Starter-Kit), and a [Command Line Interface](https://github.com/mriverodorta/devtips-cli) for this project!! So cool :)
+
+
+## Requirements
+This project have some requirements you need to meet in order to compile it. First of all, you need NodeJS in order to run javascript on the console, you can go to the [NodeJS](http://nodejs.rg) site and follow trough the installation process. After you get the `node` command on the console, you need to install Gulp and Bower globally with the following command.
 
 ```
 node install -g gulp bower
@@ -16,9 +53,10 @@ node install -g gulp bower
 Gulp is the one that will run all the compilation, watchers and others tasks. Bower will get the dependencies for the client side like jQuery. Those are the only requeriments to run this project.
 
 ## Install
+
 In order to start using the project you need to clone it to your pc. You can download the the zip version from [here](#) or clone the project with the git command.
 ```
-git clone -b Gulp-Starter-Kit --single-branch https://github.com/mriverodorta/DevTips-Starter-Kit.git project-name
+git clone -b master --single-branch https://github.com/JustineWin/Salmon-Gulp.git project-name
 git clone https://blablabla.github.com new-project
 ```
 After you have it on you pc, you need to go in the console to the project folder and execute the following command to gather all the dependencies.
