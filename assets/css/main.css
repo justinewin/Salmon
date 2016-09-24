@@ -792,14 +792,11 @@ hr {
 
 .fork-btn {
   text-decoration: none;
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  padding: 15px 30px;
   color: salmon;
   text-align: center;
   font-size: 12px;
   font-weight: 600;
-  line-height: 38px;
   text-transform: uppercase;
   border-radius: 4px;
   border: 1px solid rgba(255, 194, 194, 0.6);
@@ -872,6 +869,9 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+   -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0;
 }
 
